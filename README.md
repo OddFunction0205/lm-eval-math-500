@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Language Model Evaluation Harness
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)
@@ -530,3 +531,9 @@ Extras dependencies can be installed via `pip install -e ".[NAME]"`
  #   l m - e v a l - m a t h - 5 0 0  
  #   l m - e v a l - m a t h - 5 0 0  
  
+=======
+# 介绍
+
+本仓库基于https://github.com/EleutherAI/lm-evaluation-harness框架，完成了math 500数据集的评测。主要是实现了
+lm_eval/tasks/math500文件夹中math500.yaml和utils.py文件的实现。
+>>>>>>> 10140c6 (Initial commit)
