@@ -1,0 +1,39 @@
+# 任务名称
+task: math500
+# 任务标签，可根据实际情况添加
+tag:
+  - math
+  - generation
+
+# 数据集配置
+# 保持原来的数据集名称
+dataset_path: HuggingFaceH4/MATH-500
+# dataset_name保持为null
+dataset_name: null
+# 指定本地数据集目录的路径
+dataset_kwargs:
+  data_dir: null
+training_split: null
+validation_split: null
+test_split: test
+fewshot_split: null  # 如果不需要fewshot数据，也可以设置为null
+
+# 数据预处理函数
+process_docs: !function utils.process_docs
+
+# 提示模板
+doc_to_text: "{{problem}}"
+doc_to_target: "{{solution}}"
+
+# 指标设置
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+
+# 任务元数据，包含版本信息
+metadata:
+  version: 0
+
+# 任务别名，用于美化展示
+task_alias: MATH-500
