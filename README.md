@@ -1,7 +1,6 @@
 # 介绍
 
-本仓库基于https://github.com/EleutherAI/lm-evaluation-harness框架，完成了math 500数据集的评测。主要是实现了
-lm_eval/tasks/math500文件夹中math500.yaml和utils.py文件的实现。
+本仓库基于https://github.com/EleutherAI/lm-evaluation-harness 框架，完成了math 500数据集的评测。主要是实现了lm_eval/tasks/math500文件夹中math500.yaml和utils.py文件的实现。
 
 该框架同时还提供了通过Open API测评GPT类模型的命令。
 
