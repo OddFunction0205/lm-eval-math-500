@@ -1,0 +1,22 @@
+# 数据报告
+
+| 模型           | MATH 500 分数 |
+|----------------|---------------|
+| OpenAI o1      | 94.8|
+| OpenAI o1-mini |   90    |
+| GPT-4o   |       74.6  |
+| DeepSeek-R1    | 97.3      |
+| DeepSeek-R1-32B |94.3 |
+| DeepSeek-R1-V3 | 90.2 |
+| DeepSeek-R1-Zero   |  95.9  |
+| deepseek-v2-lite-chat-hf | 43.6 |
+| Kimi k1.5 long CoT     | 96.2       |
+| Kimi k1.5 short-CoT  |   94.6   |
+| Claude-3.5-Sonnet-1022 | 78.3 |
+| QVQ-72B-Preview     |   90.6        |
+
+参考文档：
+
+- [Kimi-k1.5 参考文档](https://github.com/MoonshotAI/Kimi-k1.5)
+- [DeepSeek-R1 参考文档](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)
+- [DeepSeek-V2 参考文档](https://arxiv.org/pdf/2405.04434)
